@@ -29,15 +29,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead.
 
 1. What is the DOM?
+    The DOM stands for Document Object Model which acts as an interface of the document's html structure.
 
 2. What is an event?
+    A behavior that occurs after an user or browser activates it.
 
 3. What is an event listener?
+    Waits for an event to occur.
 
 4. Why would we convert a NodeList into an Array?
+    To use array methods.
 
 5. What is a component?
-
+    A re-usable interface element. Such element may be styled(CSS) and/or contain a behavior( JavaScript). 
+    
 ### Git Set up
 
 * [ ] Fork the project into your GitHub user account

@@ -38,24 +38,8 @@ const right = document.createElement( "div" );
 right.className = "right-button";
 right.textContent = ">";
 
-left.addEventListener( "click", function( e )
-{
-  if( i - 1 >= 0 )
-  {
-    i--;
-    img.src = images[ i ];  
-  }
-} );
-
-
-right.addEventListener( "click", function( e )
-{
-  if( i + 1 < images.length )
-  {
-    i++;
-    img.src = images[ i ];  
-  }
-} );
+left.addEventListener( "click", e => img.src = images[ i - 1 >=0 ? i -= 1 : i ] );  
+right.addEventListener( "click", e => img.src = images[ i + 1 < images.length ? i += 1 : i ] );
 
 [ left, img, right ].forEach( element => carousel.appendChild( element ) );
 
